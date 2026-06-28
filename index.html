@@ -1,0 +1,246 @@
+<head>
+    <meta charset="UTF-8<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   InvestinThem | Youth Financial & Entrepreneurial Nonprofit Education<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', 'SF Pro Text', sans-serif;
+        }
+
+:root {
+--primary-deep: #0E4F40;
+--primary-mid: #186C59;
+--accent-soft: #E6F3EF;
+--neutral-dark: #1C2A33;
+--neutral-body: #495761;
+--white: #ffffff;
+--shadow-soft: 0 10px 35px rgba(14, 79, 64, 0.07);
+--shadow-hover: 0 18px 45px rgba(14, 79, 64, 0.12);
+--transition: all 0.35s ease cubic-bezier(0.4,0,0.2,1);
+}
+
+body {
+background-color: #FAFDFC;
+color: var(--neutral-body);
+line-height: 1.8;
+overflow-x: hidden;
+}
+
+/* 导航栏 高端悬浮磨砂质感 */
+header {
+width: 100%;
+padding: 26px 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: rgba(255,255,255,0.88);
+backdrop-filter: blur(10px);
+position: fixed;
+top:0;
+z-index: 999;
+box-shadow: var(--shadow-soft);
+}
+
+.logo {
+font-size: 24px;
+font-weight: 650;
+color: var(--primary-deep);
+letter-spacing: 0.3px;
+}
+
+nav a {
+text-decoration: none;
+color: var(--neutral-dark);
+font-size: 15px;
+font-weight: 500;
+margin-left: 34px;
+transition: var(--transition);
+opacity: 0.85;
+}
+
+nav a:hover {
+color: var(--primary-mid);
+opacity: 1;
+}
+
+/* 首屏 顶级渐变hero */
+.hero {
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 6%;
+background: linear-gradient(135deg, #EDF8F4 0%, #F6FBF9 100%);
+padding-top: 120px;
+}
+
+.hero h1 {
+font-size: 62px;
+color: var(--primary-deep);
+font-weight: 700;
+letter-spacing: 0.5px;
+margin-bottom: 24px;
+}
+
+.hero p {
+max-width: 740px;
+font-size: 19px;
+color: var(--neutral-body);
+margin-bottom: 44px;
+}
+
+.btn-main {
+padding: 17px 42px;
+background-color: var(--primary-mid);
+color: white;
+border-radius: 999px;
+text-decoration: none;
+font-weight: 550;
+font-size: 16px;
+transition: var(--transition);
+box-shadow: 0 8px 22px rgba(24, 108, 89, 0.18);
+}
+
+.btn-main:hover {
+transform: translateY(-3px);
+box-shadow: var(--shadow-hover);
+background-color: var(--primary-deep);
+}
+
+/* 通用区块 */
+.section {
+max-width: 1180px;
+margin: 0 auto;
+padding: 110px 6%;
+}
+
+.section-heading {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.section-heading h2 {
+font-size: 38px;
+color: var(--primary-deep);
+font-weight: 680;
+margin-bottom: 14px;
+}
+
+.section-heading p {
+max-width: 660px;
+margin: 0 auto;
+font-size: 17px;
+color: var(--neutral-body);
+}
+
+/* 高端内容卡片区块（无列表、纯段落高级叙事） */
+.content-block {
+background: var(--white);
+border-radius: 22px;
+padding: 55px 60px;
+box-shadow: var(--shadow-soft);
+transition: var(--transition);
+}
+
+.content-block:hover {
+box-shadow: var(--shadow-hover);
+}
+
+.content-block p {
+font-size: 17px;
+margin-bottom: 22px;
+color: var(--neutral-body);
+}
+
+/* 价值观双栏高级布局 */
+.values-row {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 32px;
+margin-top: 40px;
+}
+
+.value-card {
+background: var(--accent-soft);
+border-radius: 18px;
+padding: 36px;
+}
+
+.value-card h4 {
+color: var(--primary-deep);
+font-size: 20px;
+margin-bottom: 14px;
+}
+
+/* 底部极简高端页脚 */
+footer {
+background-color: var(--neutral-dark);
+color: rgba(255,255,255,0.7);
+text-align: center;
+padding: 55px 6%;
+font-size: 14px;
+}
+
+footer p {
+margin-top: 8px;
+}
+
+/* 移动端适配 */
+@media(max-width:768px){
+.hero h1{font-size:40px;}
+.values-row{grid-template-columns:1fr;}
+nav a{margin-left:16px;}
+.content-block{padding:35px 28px;}
+}
+
+<body><header>
+   <div class="logo"></div<nav><a href=" ><a href="#</a ><a href="#programs">Programs</a >
+        <a href="#vision">Vision</a >
+        <a href="#contact">Contact</nav</header>
+
+<section class="hero" id="home">
+    <h1>Empowering Youth</h1><p>InvestinThem is an independent youth-led nonprofit dedicated to transforming children and teen education through accessible, interactive, and practical financial literacy, entrepreneurship, and community</p >
+<a href="#mission" class="btn-main"></a ><section class="section" id="<div class="section-heading">
+<h2>Our</h2>
+<p>Bridging the gap between traditional education and real-world financial capability for young</p >
+    </div>
+    <div class="content-block"><p>Modern academic education rarely includes structured financial training, investment logic, entrepreneurial thinking, or social impact practice — foundational life skills that shape lifelong independence, decision-making,</p ><p>Founded by youth for youth, InvestinThem exists to redefine early financial education. We believe financial literacy is not a luxury skill — it is a fundamental education every child deserves.</p >
+        <p>We eliminate complex jargon, high-risk simulation barriers, and outdated textbook teaching. Instead, we build immersive, game-based, safe learning environments that allow young learners to explore money management, investing logic, business creation, and community leadership without pressure or real-world risk.</p >
+    </section><section class="section" style="background:#f6faf9" id="programs">
+    <div class="section-heading"><h2></h2<p>A unified youth education system integrating personal finance, entrepreneurship, and community</p >
+</div>
+   <div class="content-block<p>Our organization delivers a comprehensive youth education ecosystem designed to cultivate three core competencies: personal financial responsibility, innovative entrepreneurial mindset, and</p ><p>Our learning system includes interactive financial simulation environments that build budgeting discipline, saving awareness, market analysis logic, and beginner investment understanding. All activities are kid-safe, zero-risk, and structured for</p >
+<p>We further extend education into creative entrepreneurship training, guiding young people to refine ideas, analyze markets, understand branding, and structure professional project pitches — building real-world startup competence at an early age.</p >
+        <p>Completing our educational model is our community impact curriculum, which teaches students to identify local challenges, conduct community research, design practical solutions, build fundraising frameworks, and measure tangible social</p >
+       <p>All programs follow a unified nonprofit educational philosophy: learning by doing, growing by creating, and leading by impact.</p >
+    <div class="values-row">
+<div class="value<h</h4>
+            <p>We make premium financial and entrepreneurial education free and open for all young learners regardless of background.</p >
+        <div class="value-card">
+<h4>Safe</h4><p>All financial and market practices are risk-free, student-centered, and specifically designed for minors.</div><div class="value-card">
+            <h4>Youth-Led</h4>
+<p>Our content is created by young educators for young audiences, ensuring relevance, creativity, and modern learning design.</p >
+        <div class="value-card">
+<h4>Social</h4><p>We teach finance not only for personal growth but for community contribution and</p ></div>
+    </div>
+<section class="section" id="vision"><div class="section-heading">
+        <h2>Future Vision</h2>
+        <p>Building a permanent global youth financial education ecosystem.</div><div class="content-block">
+        <p>This official platform serves as the central nonprofit hub for InvestinThem. In future phases, specialized independent sub-platforms will launch to provide dedicated spaces for financial gaming learning, entrepreneurship training, and community impact</p >
+       <p>Our long-term goal is to establish a standardized, scalable youth financial education system that empowers students worldwide to develop rational money habits, innovative thinking, and responsible leadership before</p >
+   </section<section class="section" id="contact">
+<div class="section<h2>Contact & Partnership</h2>
+        <p>We welcome educator collaboration, nonprofit partnership, and student</p >
+</div>
+   <div class="content-block" style="text-align:center<p>Organization: InvestinThem Non-Profit Youth Financial Education</p >
+        <p>Official Contact: Coming</p >
+       <p>Partnership & Volunteer Opportunities: Opening in Future</p >
+   </section<footer>
+<p>InvestinThem | Non-Profit</p >
+<p>© 2026 All Rights Reserved</p >
+</body>
+</html>2
